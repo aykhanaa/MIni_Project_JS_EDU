@@ -434,6 +434,7 @@ header a.try_free {
 .main-up-title {
   font-size: 41px;
   line-height: 1;
+  margin-top: 72px;
 }
 
 .main-up-title span:first-child {
@@ -2665,3 +2666,217 @@ course__tag .course__item-2 {
   }
 }
 
+
+
+
+#event {
+  background: var(--color-light, #fff);
+}
+
+#event article.article h3 {
+  font-size: 3.2rem;
+  margin-top: 110px;
+}
+
+#event .event_bg_shape {
+  left: 26%;
+  margin-top: 223px;
+}
+
+#event .row>* {
+  position: relative;
+  z-index: 2;
+}
+
+#event .event_item {
+  box-shadow: var(--shadow);
+  padding: 2rem 2.2rem;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+  background: var(--color-light, #fff);
+}
+
+#event .event_item:before {
+  content: "";
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: -3px;
+  width: 60px;
+  height: 0;
+  z-index: -1;
+  border-radius: 0.5rem;
+  background: var(--primary-color, #2b4eff);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+#event .event_item.fill::before,
+#event .event_item:hover::before {
+  top: 0;
+  bottom: auto;
+  height: 100%;
+}
+
+#event .event_item .event_time_and_date {
+  font-size: 14px;
+  color: #777;
+}
+
+#event .event_item .event_time_and_date span {
+  padding-right: 8px;
+}
+
+#event .event_item .event_time_and_date span.br:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  width: 1px;
+  height: 70%;
+  background: #777;
+}
+
+#event .event_item h3.event_name {
+  font-size: 1.4rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+}
+
+#event .event_item h3.event_name:hover a {
+  color: var(--primary-color, #2b4eff);
+}
+
+#event .event_item a.view_all i:first-child {
+  z-index: 1;
+}
+
+#event .event_item a.view_all:hover i:first-child {
+  right: -19px;
+}
+
+#event .event_item a.view_all i:last-child {
+  right: -19px;
+}
+
+
+
+
+
+#costing {
+  padding: 100px 0 16rem;
+  background: var(--color-light, #fff);
+}
+
+#costing .nav.nav-pills,
+#costing article.article {
+  width: max-content;
+  margin: 0 auto;
+}
+
+#costing .nav.nav-pills {
+  border: 2px solid var(--gray-color, #edeef3);
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+#costing .nav.nav-pills li button {
+  padding: 0.4rem 1rem;
+  border-radius: 0;
+}
+
+#costing .costing_card {
+  padding: 3rem;
+  background: #e9edf7;
+  width: 50%;
+  margin: 0 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.costing_cards.tab-content>.active {
+  display: flex;
+}
+
+#costing .costing_card .costing_card_header {
+  border-bottom: 1px solid #c3c3c3;
+}
+
+#costing .costing_card .costing_card_header h4,
+h3.price {
+  font-weight: 600;
+}
+
+#costing .costing_card .costing_card_header h3.price {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+#costing .costing_card .costing_card_header h3.price sub {
+  font-size: initial;
+  font-weight: normal;
+  margin-left: -1rem;
+}
+
+#costing .costing_card ul.costing_card_featured {
+  padding: 1.5rem 0 2.5rem;
+}
+
+#costing .costing_card ul.costing_card_featured li {
+  margin: 0.5rem 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+#costing .costing_card ul.costing_card_featured li:hover {
+  color: #09c128;
+}
+
+#costing .costing_card ul.costing_card_featured li i {
+  color: #09c128;
+  margin-right: 0.5rem;
+}
+
+#costing .costing_card.dimond a.try_free {
+  background: transparent;
+}
+
+#costing .costing_card.dimond a.try_free:hover {
+  background: var(--primary-color, #2b4eff);
+}
+
+#costing .costing_card.dimond span.best_sell {
+  top: 5%;
+  right: -3%;
+  background: var(--secondary-color);
+  padding: 2px 7px;
+  color: #fff;
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+#costing .costing_card.dimond span.best_sell {
+  top: 5%;
+  right: -3%;
+  background: var(--secondary-color);
+  padding: 2px 7px;
+  color: #fff;
+  background-color: #f2277e;
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+#costing .costing_card.dimond span.best_sell::after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid #960443;
+  border-top: 0px solid transparent;
+  border-bottom: 10px solid transparent;
+}
