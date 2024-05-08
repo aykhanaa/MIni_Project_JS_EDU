@@ -456,84 +456,6 @@ margin-left: 10px;
     color: white;
 }
 
-/* 
-#course-tab.pagination1{
-    width: 80%;
-    height: 50px;
-    background-color:#edeef3;
-    justify-content: center;
-    align-items: center;
-    margin-left: 120px;
-    margin-top: 150px;
-    border-radius: 10px;
-}
-
-.container{
-    margin-top: 6%;
-    margin-left: 14%;
-    background-color: #cad1d699;
-    width: 71%;
-    height: 53px;
-}
-
-.pagination1 .left-position{
-    display: flex;
-    margin-left: 10px;
-}
-
-
- .pagination1 .left-icons i{
-    color: blue;
-    cursor: pointer;
-    display: flex;
-    margin-top: 16px;
-}
-
-.pagination1 .left-position .left-icons {
-    color: blue;
-    margin-top: 14px;
-    cursor: pointer;
-}
-.pagination1 .left-position .left-icons:hover{
-    background-color: #3b60ff;
-    color: wh;
-}
-
- .pagination1 .second-icon i{
-    color: blue;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-top: 19px;
-}
-
-
- .pagination1 .showing {
-    margin-left: 19px;
-    margin-top: 14px;
-}
-
- .pagination1 .right-icons{
-    width: 120px;
-    height: 30px;
-    background-color: white;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 921px;
-    margin-top: -25px;
-}
-
- .pagination1 .right-icons span{
-    cursor: pointer;
-}
-
- .pagination1 .right-icons i{
- margin-left: 9px;
-}  */
-
-
-
 
 
 
@@ -2152,31 +2074,18 @@ margin-left: 10px;
   }
 
 
-
-
-
   #pagination-end{
     height: 78px;
     margin-top: 6%;
 }
 
-
-
     #pagination-end .pagination-all {
       margin-bottom: 56px;
 }  
 
-#pagination-end .pagination-all .paginationes{
-
-}
-
-
-
-
 #guide{
   margin-top: 12%;
 }
-
 
   #guide .own_guid_card {
     padding: 2.5rem 5rem;
